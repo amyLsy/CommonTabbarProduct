@@ -13,7 +13,6 @@
 
 +(UIStoryboard *)getStoryBoard:(NSString *)sbName {
     UIStoryboard *storyboard = [UIStoryboard storyboardWithName:sbName bundle:nil];
-    //ni hao ma 
     return storyboard;
 }
 
